@@ -1,1 +1,164 @@
-/*# sourceMappingURL=header.css.map */
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+header nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav .bars {
+  display: none;
+}
+header .nav-item1 {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+header .nav-item1 h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+header .nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+header .a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+header .a a {
+  color: rgb(182, 182, 182);
+  font-size: 16px;
+}
+header .a a:hover {
+  color: #fff;
+}
+header .nav-btn {
+  display: flex;
+  gap: 20px;
+}
+header .nav-btn button {
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+}
+header .nav-btn .nav-btn1 {
+  background-color: transparent;
+  border: 1px solid white;
+}
+header .nav-btn .nav-btn2 {
+  background-color: #02897A;
+  border: none;
+}
+header .main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-bottom: 50px;
+}
+header .main .header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+  text-align: center;
+}
+header .main .header-text h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+header .main .header-text h3 {
+  font-size: 24px;
+}
+header .main .header-text h5 {
+  font-size: 16px;
+}
+header .main .cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+header .main .card1 {
+  width: 300px;
+  height: 420px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 5px;
+}
+header .main .card1 button {
+  font-size: 18px;
+  color: #fff;
+  background-color: #02897A;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+header .main .card2 {
+  width: 300px;
+  height: 420px;
+  background-color: #02897A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 5px;
+  color: #fff;
+}
+header .main .card2 button {
+  font-size: 18px;
+  color: black;
+  background-color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+@media (max-width: 1000px) {
+  .container header nav .nav-link .a {
+    display: none;
+  }
+  .container header nav .nav-link .bars {
+    display: block;
+  }
+  .container header nav .nav-link .bars i {
+    color: #fff;
+    font-size: 20px;
+  }
+}
+@media (max-width: 700px) {
+  .container header {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .container header nav .nav-link .nav-btn {
+    display: none;
+  }
+  .container header nav .nav-link img {
+    display: none;
+  }
+}/*# sourceMappingURL=header.css.map */
